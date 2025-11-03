@@ -3,7 +3,7 @@ fn main() {
 
     {
         let display_numbers = || {
-            for n in numbers {
+            for n in &numbers {
                 println!("{n}");
             }
         };
